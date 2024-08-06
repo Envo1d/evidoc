@@ -1,0 +1,21 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"@tauri-apps/api": "^2.0.0-rc.0",
+		"@tauri-apps/plugin-dialog": "^2.0.0-rc.0",
+		"nuxt": "^3.12.4",
+		"vue": "latest"
+	},
+	"devDependencies": {
+		"@tauri-apps/cli": "^2.0.0-rc.1"
+	}
+}
